@@ -32,6 +32,15 @@
     <link href="${contextRoot}/css/style.css" rel="stylesheet">
     <!-- jQ -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--JavaScript & Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="${contextRoot}/lib/easing/easing.min.js"></script>
+    <script src="${contextRoot}/lib/owlcarousel/owl.carousel.min.js"></script>
 
 </head>
 
@@ -44,8 +53,8 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid">
-        <div class="row  px-xl-5">
+    <div class="container-fluid mt-3">
+        <div class="row">
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
 <%--                    <a href="" class="text-decoration-none d-block d-lg-none">--%>

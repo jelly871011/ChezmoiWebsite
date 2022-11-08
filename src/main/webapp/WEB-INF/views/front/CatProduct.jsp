@@ -28,8 +28,12 @@
 
     <!-- Libraries Stylesheet -->
     <link href="${contextRoot}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="${contextRoot}/css/style.css" rel="stylesheet">
+
+    <!-- jQ -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -42,7 +46,7 @@
         <div class="row px-xl-5 pb-3" id="tbody">
             <!-- Controller傳來的model -->
                                     <c:forEach var="product" items="${category}">
-                        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                        <div class="col-lg-3 col-6 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                                     <img class="img-fluid w-300"

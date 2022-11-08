@@ -40,7 +40,7 @@
 body {
   font-family: Arial;
   font-size: 17px;
-  padding: 8px;
+  padding: 0px;
 }
 
 * {
