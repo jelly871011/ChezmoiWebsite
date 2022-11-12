@@ -31,7 +31,7 @@ Chezmoi商家在Instagram上販售韓國連線女裝,因平台上架費考量,�
 * Java, Spring, Spring Boot, Spring MVC, Hibernate, , SMTP
 
 資料庫:
-* 
+* Microsoft SQL Server
 
 金流串接:
 * Paypal
